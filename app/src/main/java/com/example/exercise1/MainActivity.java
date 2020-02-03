@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    
+
     void AnimateDown(final Integer height)
     {
         ObjectAnimator animation = ObjectAnimator.ofFloat(view, "translationY", 10f,height-75);
